@@ -1,4 +1,3 @@
-# manifests
 
 manifests
 ===========
