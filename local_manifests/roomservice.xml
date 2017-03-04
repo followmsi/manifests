@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com" />/
-  <remote name="bb" fetch="https://bitbucket.org"/>
-  <project name="Khaon/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
-  <project name="omnirom/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="android-7.0" />
-  <project name="omnirom/android_external_stlport" path="external/stlport" remote="github" revision="android-7.0"/>
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <project name="omnirom/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="android-7.1" />
-  <remove-project name="platform/system/sepolicy" />
-  <project name="sooti/android_system_sepolicy" path="system/sepolicy" remote="github" revision="aosp-7.1" />
-  <remove-project name="platform/hardware/invensense" />
-  <project name="omnirom/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-7.1" />
-  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aosp-nougat" />
-  <remove-project name="platform/external/f2fs-tools"/>
-  <project name="Khaon/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="master"/>
-  <remove-project name="platform/external/e2fsprogs"/>
-  <project name="Khaon/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master"/>
-  <project name="Khaon/arm-cortex_a15-linux-gnueabihf-linaro_4.7.4" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="master"/>
-  <remove-project name="platform/frameworks/av"/>
-  <project name="sooti/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1"/>
+  <remove-project name="device/google/dragon" />
+  <remove-project name="device/google/dragon-kernel" />
+  <project name="followmsi/android_device_google_dragon_aosp" path="device/google/dragon" remote="github" revision="twrp-nougat" />
 </manifest>
