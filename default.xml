@@ -530,7 +530,7 @@
   <!-- Devices -->
   <project path="device/lge/geehrc" name="aosp-msm8960/android_device_lge_geehrc" remote="github" revision="n" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="followmsi" revision="aosp-nougat" />
-  <project path="device/asus/deb" name="aosp-msm8960/android_device_asus_deb" remote="github" revision="nougat-release" />
+  <project path="device/asus/deb" name="android_device_asus_deb" remote="followmsi" revision="aosp-nougat" />
   <project path="device/lge/mako" name="aosp-msm8960/android_device_lge_mako" remote="github" revision="nougat-release" />
 	
   <!-- Blobs -->

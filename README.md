@@ -1,10 +1,10 @@
 
-flo-aosp-nougat
+deb-aosp-nougat
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u git://github.com/followmsi/manifests.git -b flo-aosp-nougat
+repo init -u git://github.com/followmsi/manifests.git -b deb-aosp-nougat
 ````
 Then to sync up:
 ````bash
