@@ -7,4 +7,5 @@
   <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="followmsi-nougat" />
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="twrp-nougat" />
   <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-nougat" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="lineageos-cm-14.1" />
 </manifest>
