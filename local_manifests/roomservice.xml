@@ -4,4 +4,5 @@
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
   <project name="followmsi/android_device_google_dragon_aosp" path="device/google/dragon" remote="github" revision="twrp-nougat" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-aosp-nougat" />
 </manifest>
