@@ -1,5 +1,5 @@
 
-deb-lineageos-cm-14.1
+flo-deb-lineageos-cm-14.1
 ===========
 
 To initialize your local repository use a command like this:
