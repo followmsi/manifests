@@ -4,7 +4,7 @@ manifests
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u git://github.com/followmsi/manifests.git -b flo-aosp-nougat
+repo init -u git://github.com/followmsi/manifests.git -b flo-deb-aosp-nougat
 ````
 Then to sync up:
 ````bash
@@ -16,6 +16,3 @@ Finally to build:
 lunch                 -> (device number)
 make -j8 otapackage
 ````
-
-
-
