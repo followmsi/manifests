@@ -35,7 +35,7 @@
   </project>
   -->
 
- <project path="build" name="platform_build" groups="pdk" remote="followmsi" revision="flo-aosp-nougat" >
+ <project path="build" name="platform_build" groups="pdk" remote="followmsi" revision="flo-deb-aosp-nougat" >
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
