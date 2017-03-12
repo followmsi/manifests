@@ -7,27 +7,10 @@
 
     <remote  name="github"
            fetch="https://github.com/" />
-	
-	<remote name="nbehary"
-		fetch="https://github.com/nbehary"
-		sync-j="8"/>
-	
-	<remote name="followmsi"
-		fetch="https://github.com/followmsi"
-		sync-j="8"/>
 
-    <remote name="opengapps" fetch="https://github.com/opengapps/"  />
-
-    <remote name="aosp-msm8960"
-	fetch="https://github.com/aosp-msm8960"
-	sync-j="8"/>
-	
-    <remote name="cm"
-	fetch="https://github.com/CyanogenMod"
-	sync-j="8"/>
-	
-	<remote name="SimpleAosp"
-            fetch="https://github.com/SAOSP-N/" /> 
+    <remote name="followmsi"
+	    fetch="https://github.com/followmsi"
+	    sync-j="8"/>
 
 
   <!-- <project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -47,8 +30,8 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform_bionic" remote="nbehary" revision="n-mr1"/> 
- <!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
+  <project path="bionic" name="platform_bionic" remote="followmsi" revision="n-mr1"/>
+  <!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -302,7 +285,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="nbehary" revision="n-mr1"/>
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="followmsi" revision="n-mr1"/>
   <!-- <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -359,15 +342,14 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="aosp-msm8960/android_hardware_qcom_audio" remote="github" revision="nougat-release" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="followmsi" revision="nougat-release" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="aosp-msm8960/android_hardware_qcom_gps" remote="github" revision="nougat-release" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="followmsi" revision="nougat-release" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
- <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="nbehary" revision="nougat-release"/> 
-  <!-- <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="SimpleAosp" revision="N" /> -->
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="followmsi" revision="nougat-release"/>
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -495,7 +477,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="nbehary" revision="n-mr1"/> 
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="followmsi" revision="n-mr1"/> 
   <!-- <project path="system/core" name="platform/system/core" groups="pdk"/> -->
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
@@ -506,7 +488,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="nbehary" revision="n" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="followmsi" revision="n" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
