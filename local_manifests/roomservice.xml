@@ -8,6 +8,8 @@
   <project name="followmsi/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1" />
   <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
   <project name="followmsi/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="android-7.1" />
+  <project name="followmsi/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
+  <project name="followmsi/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="followmsi/android_device_google_dragon_aosp" path="device/google/dragon" remote="github" revision="twrp-nougat" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-aosp-nougat" />
 </manifest>
