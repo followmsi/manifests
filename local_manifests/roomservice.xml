@@ -3,6 +3,8 @@
   <remote name="github" fetch="https://github.com" />/
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="platform/build" />
+  <project name="followmsi/platform_build" path="build" remote="github" revision="dragon-aosp-nougat" />
   <project name="followmsi/android_device_google_dragon_aosp" path="device/google/dragon" remote="github" revision="aosp-nougat" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-aosp-nougat" />
 </manifest>
