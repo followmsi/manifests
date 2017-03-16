@@ -5,6 +5,8 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/build" />
+  <project name="followmsi/platform_build" path="build" remote="github" revision="dragon-aosp-nougat" />
   <project name="followmsi/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1" />
   <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
   <project name="followmsi/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="android-7.1" />
