@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
-  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="twrp-nougat" />
-  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-nougat" />
-  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineageos-cm-14.1" />
+  <remote name="github" fetch="https://github.com" />/
+  <remove-project name="platform/bootable/recovery" />
+  <project name="followmsi/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1" />
+  <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" />
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
 </manifest>
