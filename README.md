@@ -39,5 +39,5 @@ Finally to build:
 ````bash
 . build/envsetup.sh
 lunch                 -> (device number)
-make -j8 otapackage
+make -j8 recoveryimage
 ````
