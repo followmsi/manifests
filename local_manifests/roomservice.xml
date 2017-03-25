@@ -3,6 +3,6 @@
   <remote name="github" fetch="https://github.com" />/
   <remove-project name="platform/bootable/recovery" />
   <project name="followmsi/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1" />
-  <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" />
+  <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
 </manifest>
