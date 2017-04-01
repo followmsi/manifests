@@ -9,6 +9,6 @@
   <project name="followmsi/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="dragon-aosp-nougat" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="dragon-aosp-nougat" />
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-nougat" />
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="aosp-nougat" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-aosp-nougat" />
 </manifest>
