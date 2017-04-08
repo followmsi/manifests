@@ -1,10 +1,10 @@
 
-manta-aosp-nougat
+flo-deb-aosp-o
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r2
+repo init -u https://android.googlesource.com/platform/manifest -b android-o
 ````
 Then you need to clone the local_manifest:
 ````bash
