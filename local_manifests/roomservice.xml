@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="los-cm-14.1"/>
   <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="twrp-nougat" />
   <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="followmsi-nougat" />
   <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="cm-14.1" />
