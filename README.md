@@ -1,5 +1,5 @@
 
-flo-deb-aosp-nougat
+example-aosp-nougat
 ===========
 
 To initialize your local repository use a command like this:
@@ -9,7 +9,7 @@ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/flo-deb-aosp-nougat
+git checkout origin/example-aosp-nougat
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
