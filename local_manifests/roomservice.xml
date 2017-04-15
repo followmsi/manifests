@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" />
-  <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="los-cm-14.1" />
-  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="twrp-nougat" />
-  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-nougat" />
-  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineageos-cm-14.1" />
+    <!-- Get rid of Lineage repos -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+    <project path="frameworks/base" name="LineageOMS/android_frameworks_base" />
+    <remove-project name="LineageOS/android_frameworks_native" />
+    <project path="frameworks/native" name="LineageOMS/android_frameworks_native" />
+    <remove-project name="LineageOS/android_packages_apps_Contacts" />
+    <project path="packages/apps/Contacts" name="LineageOMS/android_packages_apps_Contacts" />
+    <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+    <project path="packages/apps/ContactsCommon" name="LineageOMS/android_packages_apps_ContactsCommon" />
+    <remove-project name="LineageOS/android_packages_apps_Dialer" />
+    <project path="packages/apps/Dialer" name="LineageOMS/android_packages_apps_Dialer" />
+    <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+    <project path="packages/apps/ExactCalculator" name="LineageOMS/android_packages_apps_ExactCalculator" />
+    <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+    <project path="packages/apps/PackageInstaller" name="LineageOMS/android_packages_apps_PackageInstaller" />
+    <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+    <project path="packages/apps/PhoneCommon" name="LineageOMS/android_packages_apps_PhoneCommon" />
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="LineageOMS/android_packages_apps_Settings" />
+    <remove-project name="LineageOS/android_system_core" />
+    <project path="system/core" name="LineageOMS/android_system_core" />
+    <remove-project name="LineageOS/android_system_sepolicy" />
+    <project path="system/sepolicy" name="LineageOMS/android_system_sepolicy" />
+    <remove-project name="LineageOS/android_vendor_cm" />
+    <project path="vendor/cm" name="LineageOMS/android_vendor_cm" />
+
+    <!-- Track ThemeInterfacer -->
+    <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
+    <!-- followmsi -->
+    <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" />
+    <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="los-cm-14.1" />
+    <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="twrp-nougat" />
+    <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-nougat" />
+    <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineageos-cm-14.1" />
 </manifest>
