@@ -9,6 +9,8 @@
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-nougat" />
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="aosp-nougat" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="aosp-nougat" />
   <remove-project name="platform/hardware/qcom/audio" />
