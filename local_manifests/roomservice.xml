@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project name="followmsi/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1" />
-  <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
+  <remove-project name="LineageOS/android_external_tinyalsa" />
+  <remove-project name="LineageOS/android_external_tinycompress" />
+  <project name="followmsi/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="los-cm-14.1" />
+  <project name="followmsi/android_external_tinycompress" path="external/tinycompress" groups="pdk" remote="github" revision="los-cm-14.1" />
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="los-cm-14.1" />
 </manifest>
