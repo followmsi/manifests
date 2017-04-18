@@ -30,9 +30,9 @@
     <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
     <!-- followmsi -->
-    <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="cm-14.1" />
-    <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="los-cm-14.1" />
-    <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="twrp-nougat" />
-    <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-nougat" />
-    <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineageos-cm-14.1" />
+    <remove-project name="LineageOS/android_external_tinyalsa" />
+    <remove-project name="LineageOS/android_external_tinycompress" />
+    <project name="followmsi/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="dragon-aosp-nougat" />
+    <project name="followmsi/android_external_tinycompress" path="external/tinycompress" groups="pdk" remote="github" revision="dragon-aosp-nougat" />
+    <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="los-cm-14.1" />
 </manifest>
