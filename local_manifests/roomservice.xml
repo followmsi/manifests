@@ -35,4 +35,5 @@
     <project name="followmsi/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="dragon-aosp-nougat" />
     <project name="followmsi/android_external_tinycompress" path="external/tinycompress" groups="pdk" remote="github" revision="dragon-aosp-nougat" />
     <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="los-cm-14.1" />
+    <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="followmsi-kernel" />
 </manifest>
