@@ -18,7 +18,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <project name="followmsi/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="aosp-nougat" />
   <remove-project name="platform/hardware/qcom/media" />
-  <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom" remote="github" revision="los-cm-14.1" />
+  <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom" remote="github" revision="aosp-nougat-merge" />
   <remove-project name="platform/system/core" />
   <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="aosp-nougat" />
   <remove-project name="platform/system/sepolicy" />
