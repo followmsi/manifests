@@ -27,7 +27,7 @@
     <project path="vendor/cm" name="LineageOMS/android_vendor_cm" />
 
     <!-- Track ThemeInterfacer -->
-    <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+    <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
     <!-- followmsi -->
     <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-nougat" />
