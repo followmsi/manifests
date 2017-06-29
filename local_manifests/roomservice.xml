@@ -31,6 +31,6 @@
 
     <!-- followmsi -->
     <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="los-cm-14.1" />
-    <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="followmsi-kernel" />
+    <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="cm-14.1" />
     <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-nougat" />
 </manifest>
