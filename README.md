@@ -4,7 +4,7 @@ flo-deb-aosp-nougat
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r12
+repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
 ````
 Then you need to clone the local_manifest:
 ````bash
@@ -38,7 +38,8 @@ repo sync
 Finally to build:
 ````bash
 . build/envsetup.sh
-lunch                 -> (device number)
+lunch razor-userdebug (flo)
+lunch razorg-userdebug (deb)
 make -j8 otapackage
 ````
 
