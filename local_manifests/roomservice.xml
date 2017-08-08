@@ -5,6 +5,8 @@
   <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosp-nougat" />
   <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aosp-nougat" />
   <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="omni-android-7.0" />
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-nougat" />
   <remove-project name="platform/bionic" />
