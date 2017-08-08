@@ -5,6 +5,8 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
   <project name="followmsi/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
   <project name="followmsi/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="dragon-aosp-nougat" />
