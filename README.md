@@ -1,15 +1,15 @@
 
-dragon-aosp-nougat
+dragon-aosp-oreo
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r28
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.0.0_r1
 ````
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/dragon-aosp-nougat
+git checkout origin/dragon-aosp-oreo
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
