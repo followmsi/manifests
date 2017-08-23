@@ -1,15 +1,15 @@
 
-flo-deb-aosp-o
+flo-deb-aosp-oreo
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-o
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.0.0_r1
 ````
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/manta-aosp-nougat
+git checkout origin/flo-deb-aosp-o
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
@@ -38,7 +38,8 @@ repo sync
 Finally to build:
 ````bash
 . build/envsetup.sh
-lunch                 -> (device number)
+lunch razor-userdebug (flo)
+lunch razorg-userdebug (deb)
 make -j8 otapackage
 ````
 

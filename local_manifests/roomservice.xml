@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com" />/
-  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="flo-deb-aosp-nougat" />
-  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosp-nougat" />
-  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aosp-nougat" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="flo-deb-aosp-oreo" />
+  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosp-oreo" />
+  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aosp-oreo" />
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
-  <remove-project name="platform/bionic" />
-  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/audio" />
