@@ -1,15 +1,15 @@
 
-dragon-lineageos-cm-14.1
+dragon-lineage-15.0
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://github.com/LineageOS/android.git -b cm-14.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-15.0
 ````
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/dragon-lineageos-cm-14.1
+git checkout origin/dragon-lineage-15.0
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
