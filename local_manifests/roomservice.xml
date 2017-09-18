@@ -8,6 +8,8 @@
   <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
+  <remove-project name="platform/bionic" />
+  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/audio" />
