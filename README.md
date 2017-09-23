@@ -1,15 +1,15 @@
 
-manta-aosp-nougat
+manta-aosp-oreo
 ===========
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r2
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.0.0_r7
 ````
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/manta-aosp-nougat
+git checkout origin/manta-aosp-oreo
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
@@ -37,10 +37,8 @@ repo sync
 ````
 Finally to build:
 ````bash
-. build/envsetup.sh
-lunch                 -> (device number)
+source build/envsetup.sh
+lunch aosp_manta-userdebug
 make -j8 otapackage
 ````
-
-
 
