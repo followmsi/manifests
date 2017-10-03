@@ -10,6 +10,8 @@
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -19,7 +21,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/system/bt" />
-  <project name="followmsi/platform_system_bt" path="system/bt"  groups="pdk" remote="github" revision="flo-aosp-o" />
+  <project name="followmsi/android_system_bt" path="system/bt"  groups="pdk" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/system/core" />
   <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/system/sepolicy" />
