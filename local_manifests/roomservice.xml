@@ -14,6 +14,8 @@
   <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="followmsi/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/gps" />
