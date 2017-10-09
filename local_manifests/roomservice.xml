@@ -16,6 +16,8 @@
   <project name="followmsi/platform_build" path="build" remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-aosp-oreo" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-8.0" />
 </manifest>
