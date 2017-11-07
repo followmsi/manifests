@@ -5,7 +5,7 @@
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-aosp-oreo" />
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aosp-oreo" />
   <remove-project name="platform/external/chromium-webview" />
-  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="los-15.0" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project name="followmsi/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/frameworks/av" />
