@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="followmsi/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="los-15.0" />
+  <project name="followmsi/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="followmsi-oreo" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="mido-lineage-15.0" />
+  <project name="followmsi/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+  <remove-project name="LineageOS/android_bionic" />
+  <project name="followmsi/platform_bionic" path="bionic" remote="github" revision="mido-lineage-15.0" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="followmsi/platform_system_core" path="system/core" groups="pdk" remote="github" revision="mido-lineage-15.0" />
+  <project name="followmsi/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" groups="qcom,qcom_audio,pdk" revision="mido-lineage-15.0-caf-8937" />
+  <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" groups="pdk,qcom,qcom_display" revision="mido-lineage-15.0-caf-8937" />
+  <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" groups="qcom,pdk" revision="mido-lineage-15.0-caf-8937" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="followmsi/android_system_bt" path="system/bt" groups="pdk" remote="github" revision="mido-lineage-15.0" />
+  <!-- <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-15.0" /> -->
+</manifest>
