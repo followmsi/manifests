@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="cm-14.1" />
   <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="cm-14.1" />
   <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="cm-14.1_perm" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="gtaxlwifi-cm-14.1" />
