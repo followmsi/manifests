@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="los-15.0" />
+  <remove-project name="platform/hardware/invensense" />
+  <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-8.0" />
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <project name="followmsi/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="manta-aosp-oreo" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-aosp-oreo" />
+  <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-oreo" />
+  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="los-15.0" />
+  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-oreo" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineage-15.0" />
+</manifest>
