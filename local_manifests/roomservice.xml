@@ -6,7 +6,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/external/chromium-webview" />
-  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="los-15.0" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="aosp-oreo" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="dragon-aosp-oreo" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="dragon-aosp-oreo" />
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="aosp-oreo" />
