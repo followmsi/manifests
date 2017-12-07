@@ -5,7 +5,7 @@
   <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosp-oreo" />
   <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aosp-oreo" />
   <remove-project name="platform/external/chromium-webview" />
-  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="los-15.0" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="aosp-oreo" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
   <remove-project name="platform/bionic" />
@@ -14,6 +14,10 @@
   <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="followmsi/platform_frameworks_native" path="frameworks/native" remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/external/strace" />
+  <project name="followmsi/android_external_strace" path="external/strace" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/interfaces" />
   <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -29,5 +33,5 @@
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/ril" />
-  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.0-caf" />
+  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-staging" />
 </manifest>
