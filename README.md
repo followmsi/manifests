@@ -4,7 +4,7 @@ manta-aosp-oreo
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-8.0.0_r28
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r1
 ````
 Then you need to clone the local_manifest:
 ````bash
