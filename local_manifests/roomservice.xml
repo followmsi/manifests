@@ -4,8 +4,8 @@
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="flo-deb-aosp-oreo" />
   <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosp-oreo" />
   <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aosp-oreo" />
-  <remove-project name="platform/external/chromium-webview" />
-  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="aosp-oreo" />
+  <remove-project name="platform/system/extras" />
+  <project name="followmsi/android_system_extras" path="system/extras" remote="github" revision="aosp-oreo-su" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
   <remove-project name="platform/bionic" />
@@ -33,5 +33,5 @@
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/ril" />
-  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-staging" />
+  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-caf-staging" />
 </manifest>
