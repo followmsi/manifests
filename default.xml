@@ -16,18 +16,18 @@
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
-           sync-j="16" />
+           sync-j="4" />
 
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 
-  <remote  name="buff"
-	   fetch="https://github.com/Buff99"
-	   revision="nougat" />
+  <remote  name="followmsi"
+	   fetch="https://github.com/followmsi"
+	   revision="rros-nougat" />
 
   <!-- AOSP Projects -->
-  <project path="build" name="android_build" remote="buff" >
+  <project path="build" name="platform_build" remote="followmsi" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
