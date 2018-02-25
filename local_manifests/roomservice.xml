@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="rros-lineage-15.1" />
+  <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="rros-lineage-15.1" />
+  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="oreo" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-15.1" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-15.1" />
+  <project name="followmsi/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="los-15.1" />
+  <project name="followmsi/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="los-15.1" />
+  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-15.1" />
+  <project name="followmsi/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="los-15.1" />
+  <project name="followmsi/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="los-15.1" />
+</manifest>
