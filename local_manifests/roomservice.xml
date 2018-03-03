@@ -4,6 +4,8 @@
   <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-oreo" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-aosp-oreo" />
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aosp-oreo" />
+  <remove-project name="platform/bionic" />
+  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/system/extras" />
   <project name="followmsi/android_system_extras" path="system/extras" remote="github" revision="aosp-oreo-su" />
   <remove-project name="platform/hardware/broadcom/libbt" />
