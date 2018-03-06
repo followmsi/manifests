@@ -33,5 +33,5 @@
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/ril" />
-  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-caf-staging" />
+  <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-caf" />
 </manifest>
