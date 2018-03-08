@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/hardware/invensense" />
+  <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-8.1" />
+  <remove-project name="android_system_sepolicy" />
+  <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-los-15.1" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="manta-los-15.1" />
+  <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-oreo" />
+  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="rros-los-15.1" />
+  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-oreo" />
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineage-15.1" />
+</manifest>
