@@ -1,3 +1,32 @@
+mido-rros-lineage-15.1
+===========
+
+Getting Started
+---------------
+
+To get started with Android/LineageOS, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+    repo init -u https://github.com/followmsi/manifests.git -b mido-rros-lineage-15.1
+
+Then to sync up:
+
+    repo sync --force-sync
+
+
+Finally to build:
+````bash
+source build/envsetup.sh
+
+breakfast mido
+
+croot
+
+brunch mido
+````
+
 
 Resurrection Remix OS Oreo Source 2018
 ===================
