@@ -32,6 +32,11 @@
   <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project name="followmsi/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" path="packages/apps/Nfc" remote="github" revision="flo-aosp-o" />
+  <remove-project name="platform/system/nfc" />
+  <project name="followmsi/android_system_nfc" groups="pdk" path="system/nfc" remote="github" revision="flo-aosp-o" />
+  <project name="followmsi/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/hardware/ril" />
   <project name="followmsi/android_hardware_ril" path="hardware/ril" remote="github" revision="flo-deb-lineage-15.1-caf" />
 </manifest>
