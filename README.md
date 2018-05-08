@@ -4,7 +4,7 @@ flo-deb-aosp-oreo
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r20
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r28
 ````
 Then you need to clone the local_manifest:
 ````bash
