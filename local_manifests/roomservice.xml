@@ -11,4 +11,6 @@
   <project name="followmsi/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="los-15.1" />
   <project name="followmsi/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="los-15.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+  <remove-project name="system_core" />
+  <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="gtaxl-rros-oreo" />
 </manifest>
