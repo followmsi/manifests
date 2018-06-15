@@ -10,4 +10,6 @@
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="rros-los-15.1" />
   <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-oreo" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-lineage-15.1" />
+  <remove-project name="LineageOS/android_bionic" />
+  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="los-15.1" />
 </manifest>
