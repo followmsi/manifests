@@ -8,7 +8,15 @@
   <remove-project name="platform/system/extras" />
   <project name="followmsi/android_system_extras" path="system/extras" remote="github" revision="aosp-oreo-su" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="dragon-aosp-oreo" />
-  <project name="followmsi/platform_build" path="build" remote="github" revision="dragon-aosp-oreo" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="dragon-aosp-oreo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="aosp-oreo" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="dragon-oreo" />
 </manifest>
