@@ -17,7 +17,15 @@
   <remove-project name="platform/frameworks/native" />
   <project name="followmsi/platform_frameworks_native" path="frameworks/native" remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/build" />
-  <project name="followmsi/platform_build" path="build" remote="github" revision="manta-aosp-oreo" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="manta-aosp-oreo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-aosp-oreo" />
   <remove-project name="platform/hardware/interfaces" />
