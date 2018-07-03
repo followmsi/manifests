@@ -7,7 +7,15 @@
   <remove-project name="platform/system/extras" />
   <project name="followmsi/android_system_extras" path="system/extras" remote="github" revision="aosp-oreo-su" />
   <remove-project name="platform/build" />
-  <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-o" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="flo-deb-aosp-o" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="flo-aosp-o" />
   <remove-project name="platform/frameworks/av" />
