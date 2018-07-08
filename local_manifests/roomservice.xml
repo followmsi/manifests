@@ -13,6 +13,4 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="gtaxl-los-15.1" />
-  <remove-project name="LineageOS/android_bionic" />
-  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="los-15.1" />
 </manifest>
