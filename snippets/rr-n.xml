@@ -25,7 +25,7 @@
   <project path="packages/apps/Settings" name="github-cygwin/rr_packages_apps_Settings" revision="nougat" />
   <project path="external/skia" name="external_skia" remote="rr" />
   <project path="art" name="art" remote="rr" />
-  <project path="frameworks/native" name="frameworks_native" remote="rr" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="followmsi" />
   <project path="system/core" name="platform_system_core" remote="followmsi" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
