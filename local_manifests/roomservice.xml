@@ -3,6 +3,16 @@
   <remove-project name="omnirom/android_packages_apps_SnapdragonCamera2" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <remove-project name="ResurrectionRemix/android_build" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="manta-rros-oreo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-8.1" />
   <remove-project name="ResurrectionRemix/android_system_sepolicy" />
