@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-8.1" />
   <remove-project name="LineageOS/android_system_sepolicy" />
