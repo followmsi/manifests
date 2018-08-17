@@ -29,7 +29,7 @@
   <project path="system/core" name="platform_system_core" remote="followmsi" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="followmsi" />
 
   <!-- OmniRom additions -->
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
