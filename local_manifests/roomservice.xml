@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com" />/
+  <remove-project name="platform/build" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="dragon-aosp-p" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/bionic" />
+  <project name="followmsi/platform_bionic" path="bionic" remote="github" revision="dragon-aosp-p" />
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="aosp-p" />
+  <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-p" />
+</manifest>
