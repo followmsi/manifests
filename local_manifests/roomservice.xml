@@ -13,6 +13,8 @@
   </project>
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic" path="bionic" remote="github" revision="dragon-aosp-p" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="dragon-aosp-pie" />
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="aosp-p" />
   <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-p" />
 </manifest>
