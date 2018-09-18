@@ -3,4 +3,6 @@
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="los-16.0" />
   <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="lineage-16.0" />
   <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-p" />
+  <remove-project name="platform/external/drm_hwcomposer" />
+  <project name="followmsi/android_external_drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="dragon-pie" />
 </manifest>
