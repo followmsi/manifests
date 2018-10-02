@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com" />/
+  <remove-project name="platform/packages/apps/Camera2" />
   <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-oreo" />
   <project name="followmsi/android_vendor" path="vendor" remote="github" revision="manta-aosp-oreo" />
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aosp-oreo" />
