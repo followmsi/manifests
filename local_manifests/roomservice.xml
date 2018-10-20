@@ -8,5 +8,7 @@
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-9.0-manta" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="manta-los-16.0" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="manta-los-16.0" />
   <project name="followmsi/android_vendor" path="vendor/samsung/manta" remote="github" revision="manta-lineage-16.0" />
 </manifest>
