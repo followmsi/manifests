@@ -24,6 +24,8 @@
   </project>
   <remove-project name="platform/frameworks/base" />
   <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="manta-aosp-p" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="manta-aosp-p" />
   <remove-project name="platform/system/sepolicy" />
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-aosp-p" />
   <remove-project name="platform/hardware/invensense" />
