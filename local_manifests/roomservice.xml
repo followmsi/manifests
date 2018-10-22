@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- 32-Bit -->
   <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="los-16.0" />
   <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="los-16.0" />
-  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="pie" />
   <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-16.0" />
   <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-16.0" />
+  -->
+
+  <!-- 64-Bit
+  <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="los-16.0_64" />
+  <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="los-16.0_64" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-16.0_64" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-16.0_64" />
+  -->
+
+  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="pie" />
   <project name="followmsi/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="los-16.0" />
   <project name="followmsi/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="los-16.0" />
   <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-16.0" />
@@ -15,4 +26,5 @@
   <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="gtaxl-los-16.0" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-los-16.0" />
+
 </manifest>
