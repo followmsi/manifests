@@ -39,9 +39,5 @@ Finally to build:
 ````bash
 source build/envsetup.sh
 
-breakfast manta
-
-croot
-
 brunch manta
 ````
