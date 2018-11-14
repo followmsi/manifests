@@ -7,6 +7,8 @@
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aosp-p" />
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic" path="bionic" remote="github" revision="manta-aosp-p" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <project name="followmsi/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="manta-aosp-pie" />
   <remove-project name="platform/build" />
   <project name="followmsi/platform_build" path="build/make" remote="github" revision="manta-aosp-p" >
     <copyfile src="core/root.mk" dest="Makefile" />
