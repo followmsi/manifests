@@ -24,7 +24,5 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="gtaxl-los-16.0" />
-  <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-los-16.0" />
 
 </manifest>
