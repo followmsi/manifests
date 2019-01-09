@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="followmsi/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="los-16.0" />
+  <project name="followmsi/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="github" revision="mido-lineage-16.0" />
+  <project name="followmsi/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="pie" />
+  <project name="followmsi/android_vendor" path="vendor/xiaomi" remote="github" revision="mido-lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+
+</manifest>
