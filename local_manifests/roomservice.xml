@@ -26,5 +26,7 @@
   <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="gtaxl-los-16.0" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-los-16.0" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="followmsi/platform_frameworks_native" path="frameworks/native" remote="github" revision="gtaxl-los-16.0" />
 
 </manifest>
