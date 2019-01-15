@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- 64-Bit -->
+
+  <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="rros-lineage-16.0_64-bsp" />
+  <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="rros-lineage-16.0_64-bsp" />
+
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-16.0_64-bsp" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-16.0_64-bsp" />
+
+  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="pie-r22" />
+
+  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-16.0" />
+
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-los-16.0" />
+
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="followmsi/platform_frameworks_native" path="frameworks/native" remote="github" revision="gtaxl-los-16.0" />
+
+</manifest>
