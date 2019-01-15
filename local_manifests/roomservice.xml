@@ -16,7 +16,4 @@
   <remove-project name="AICP/hardware_interfaces" />
   <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-aicp-14.0" />
 
-  <remove-project name="AICP/frameworks_av" />
-  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="gtaxl-aicp-14.0" />
-
 </manifest>
