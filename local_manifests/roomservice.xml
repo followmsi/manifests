@@ -18,6 +18,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="followmsi/platform_build_soong" remote="github" revision="aosp-pie"  groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <remove-project name="platform/bionic" />
   <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="flo-aosp-p" />
 
