@@ -12,4 +12,15 @@
   <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960"  revision="flo-lineage-16.0-caf-8960" remote="github" />
   <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display"  revision="lineage-16.0" remote="github" />
 
+  <remove-project name="platform_build" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="flo-deb-aex-pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
 </manifest>
