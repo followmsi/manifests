@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/packages/apps/Camera2" />
+
+  <remove-project name="platform_build" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="manta-aex-pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="aex-pie" />
+
+  <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-p" />
+
+  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-pie" />
+
+  <remove-project name="platform/hardware/invensense" />
+  <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-9.0-manta" />
+
+  <remove-project name="platform_frameworks_av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="manta-aex-pie" />
+
+  <remove-project name="android_hardware_broadcom_libbt" />
+  <project name="followmsi/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="manta-los-16.0" />
+
+  <project name="followmsi/android_vendor" path="vendor/samsung/manta" remote="github" revision="manta-lineage-16.0" />
+
+</manifest>
