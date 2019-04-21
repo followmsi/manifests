@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform_build" />
+  <project name="followmsi/platform_build" path="build/make" remote="github" revision="flo-deb-aex-pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aex-pie-aosp" />
+  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aex-pie-aosp" />
+
+  <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="followmsi-pie-aosp" />
+
+  <project name="followmsi/android_vendor" path="vendor/asus" remote="github" revision="flo-deb-aosp-p" />
+
+  <remove-project name="android_hardware_qcom_display" />
+  <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display"  revision="flo-lineage-16.0" remote="github" />
+
+  <remove-project name="android_hardware_qcom_media" />
+  <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media"  revision="flo-lineage-16.0" remote="github" />
+
+
+  <!-- CAF
+
   <project name="followmsi/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aex-pie" />
   <project name="followmsi/android_device_asus_deb" path="device/asus/deb" remote="github" revision="aex-pie" />
 
@@ -12,15 +39,6 @@
   <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960"  revision="flo-lineage-16.0-caf-8960" remote="github" />
   <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display"  revision="lineage-16.0" remote="github" />
 
-  <remove-project name="platform_build" />
-  <project name="followmsi/platform_build" path="build/make" remote="github" revision="flo-deb-aex-pie" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
+  -->
 
 </manifest>
