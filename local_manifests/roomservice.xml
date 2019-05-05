@@ -3,6 +3,8 @@
 
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
 
+  <remove-project name="LineageOS/android_hardware_broadcom_nfc" />
+
   <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="rros-los-16.0" />
 
   <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="manta-aosp-p" />
