@@ -20,6 +20,8 @@
 
   <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="followmsi-pie" />
 
+  <remove-project name="android_hardware_broadcom_nfc" />
+
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-9.0-manta" />
 
