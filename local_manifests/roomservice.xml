@@ -8,6 +8,8 @@
 
   <project name="followmsi/android_vendor" path="vendor/asus" remote="github" revision="flo-deb-aosp-p" />
 
+  <remove-project name="android_hardware_broadcom_nfc" />
+
   <remove-project name="android_hardware_qcom_display" />
   <project name="followmsi/android_hardware_qcom_display" path="hardware/qcom/display"  revision="flo-lineage-16.0" remote="github" />
 
