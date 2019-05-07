@@ -32,4 +32,7 @@
   <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="manta-aosp-p" />
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-9.0-manta" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project name="followmsi/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" path="packages/apps/Nfc" remote="github" revision="manta-aosp-p" />
+  <project name="followmsi/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="manta-aosp-p" />
 </manifest>
