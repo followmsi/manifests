@@ -4,7 +4,7 @@ manta-aosp-pie
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r31
+repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r37
 ````
 Then you need to clone the local_manifest:
 ````bash
