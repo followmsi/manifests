@@ -9,7 +9,7 @@ repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/gtaxlwifi-lineageos-cm-14.1
+git checkout origin/gtaxl-cm-14.1
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
