@@ -13,10 +13,4 @@
 
   <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-16.0" />
 
-  <remove-project name="AICP/hardware_interfaces" />
-  <project name="followmsi/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="gtaxl-aicp-14.0" />
-
-  <remove-project name="AICP/frameworks_native" />
-  <project name="followmsi/platform_frameworks_native" path="frameworks/native" remote="github" revision="gtaxl-aicp-14.0" />
-
 </manifest>
