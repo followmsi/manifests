@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- 64-Bit -->
+
+  <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="pixel-pie_64-bsp" />
+  <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="pixel-pie_64-bsp" />
+
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-16.0_64-bsp" />
+  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-16.0_64-bsp" />
+
+  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="pie-m105" />
+
+  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="pixel-pie" />
+
+</manifest>
