@@ -11,6 +11,6 @@
 
   <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="pie-m105" />
 
-  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-16.0" />
+  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="pixel-pie" />
 
 </manifest>
