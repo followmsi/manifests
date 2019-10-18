@@ -33,4 +33,7 @@
 
   <project name="followmsi/android_vendor" path="vendor/samsung/manta" remote="github" revision="manta-lineage-16.0" />
 
+  <remove-project name="platform_vendor_aosp" />
+  <project name="followmsi/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="manta-aex-pie" />
+
 </manifest>
