@@ -39,5 +39,7 @@ Finally to build:
 ````bash
 source build/envsetup.sh
 
+export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+
 brunch dragon
 ````
