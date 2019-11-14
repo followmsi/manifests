@@ -7,7 +7,7 @@
   <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-17.0_64" />
   <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-17.0_64" />
 
-  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="10-m105" />
+  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="10-m105-r28" />
 
   <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-17.0" />
 
