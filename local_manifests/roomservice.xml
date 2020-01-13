@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" revision="los-17.1" />
+
+  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" revision="los-17.1" />
+
+  <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" revision="followmsi-10" />
+
+  <project name="followmsi/android_vendor" path="vendor/asus" revision="flo-deb-lineage-17.1" />
+
+  <project path="hardware/qcom-caf/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
+
+</manifest>
