@@ -9,7 +9,7 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-17.0
 Then you need to clone the local_manifest:
 ````bash
 git clone https://github.com/followmsi/manifests.git
-git checkout origin/dragon-lineage-16.0
+git checkout origin/dragon-lineage-17.0
 ````
 
 Pls copy the "local_manifests" folder into your "./repo" folder inside your build tree.
@@ -33,7 +33,7 @@ drwxrwxr-x  7 followmsi followmsi  4096 Feb 28 18:02 repo/
 
 Then to sync up:
 ````bash
-repo sync
+repo sync --force-sync
 ````
 Finally to build:
 ````bash
