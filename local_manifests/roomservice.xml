@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="pixel-ten" />
-  <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="lineage-17.0" />
+  <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="github" revision="lineage-17.1" />
   <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-10" />
 </manifest>
