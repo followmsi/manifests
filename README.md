@@ -4,7 +4,7 @@ gtaxl-rros-lineage-17.0
 
 To initialize your local repository use a command like this:
 ````bash
-repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b ten-los
+repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b ten
 ````
 Then you need to clone the local_manifest:
 ````bash
