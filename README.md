@@ -2,7 +2,13 @@
 dragon-twrp-lineageos-cm-14.1
 ===========
 
-Let's use minimal twrp manifest now ..
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+````bash
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+````
+
+For minimal twrp manifest:
 ````bash
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
 ````
@@ -34,13 +40,13 @@ drwxrwxr-x  7 followmsi followmsi  4096 Feb 28 18:02 repo/
 
 Then to sync up:
 ````bash
-repo sync
+repo sync --force-sync
 ````
 Finally to build:
 ````bash
-. build/envsetup.sh
+source build/envsetup.sh
 
-lunch dragon_aosp-eng
+lunch lineage_dragon-eng
 
 make -j8 recoveryimage
 ````

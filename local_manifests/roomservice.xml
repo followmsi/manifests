@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1-pie" />
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
+
+  <project name="TeamWin/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" groups="pdk-cw-fs" />
+
+  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
+
+
+  <!-- MINIMAL LINEAGE SOURCES
+
+  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
 
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
 
-  <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="dragon-twrp-cm-14.1" groups="pdk" />
-
   <remove-project name="omnirom/android_bootable_recovery" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" groups="pdk-cw-fs" />
+  <project name="LineageOS/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.1" groups="pdk-cw-fs" />
+  <project name="TeamWin/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" groups="pdk-cw-fs" />
 
-  <!-- FULL LINEAGE SOURCES
-
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" />
-
-  <project name="followmsi/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
-
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1-pie" />
-
-  <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="dragon-twrp-cm-14.1" />
+  <remove-project name="LineageOS/android_external_busybox" />
+  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
 
   -->
 
