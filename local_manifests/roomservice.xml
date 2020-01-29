@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
+  <project name="TeamWin/android_device_google_dragon" path="device/google/dragon" remote="github" revision="cm-14.1" />
 
   <project name="TeamWin/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" groups="pdk-cw-fs" />
 
@@ -10,7 +10,7 @@
 
   <!-- MINIMAL LINEAGE SOURCES
 
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="github" revision="twrp-cm-14.1" />
+  <project name="TeamWin/android_device_google_dragon" path="device/google/dragon" remote="github" revision="cm-14.1" />
 
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
 
