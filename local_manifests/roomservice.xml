@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="followmsi/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="los-17.1" />
+
+  <project name="followmsi/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/mido" remote="github" revision="ten" />
+
+  <project name="followmsi/android_vendor" path="vendor/xiaomi" remote="github" revision="mido-lineage-17.1" />
+
+</manifest>
