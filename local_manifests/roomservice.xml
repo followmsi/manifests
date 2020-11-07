@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
+
+  <!-- <remove-project name="LineageOS/android_hardware_broadcom_nfc" /> -->
+
+  <project name="followmsi/android_device_samsung_manta" path="device/samsung/manta" revision="los-17.1" />
+
+  <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="manta-aosp-10" />
+
+  <project name="followmsi/android_kernel_samsung_manta" path="kernel/samsung/manta" revision="followmsi-10" />
+
+  <project name="followmsi/android_vendor" path="vendor/samsung/manta" revision="manta-lineage-17.1" />
+
+  <remove-project name="platform/hardware/invensense" />
+  <project name="followmsi/android_hardware_invensense" path="hardware/invensense" revision="android-10-manta" />
+
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" revision="manta-los-17.1" />
+
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <project name="followmsi/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="manta-los-17.1" />
+
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project name="followmsi/android_vendor_lineage" path="vendor/lineage" revision="manta-los-17.1" />
+
+</manifest>
