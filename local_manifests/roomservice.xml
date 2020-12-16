@@ -9,6 +9,4 @@
 
   <project name="followmsi/android_vendor" path="vendor/asus" revision="flo-deb-lineage-17.1" />
 
-  <project path="hardware/qcom-caf/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
-
 </manifest>
