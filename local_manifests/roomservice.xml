@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" revision="los-18.1" />
+
+  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" revision="los-18.1" />
+
+  <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" revision="followmsi-11" />
+
+  <project name="followmsi/android_vendor" path="vendor/asus" revision="flo-deb-lineage-18.1" />
+
+</manifest>
