@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- losul additions -->
+  <project path="art" name="LineageOS-UL/android_art" remote="losul" />
+  
+  <project path="bionic" name="LineageOS-UL/android_bionic" remote="losul" />
+  
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.1-legacy" />
+  
+  <project path="external/connectivity" name="LineageOS-UL/android_external_connectivity" remote="losul" />
+  <project path="external/perfetto" name="LineageOS-UL/android_external_perfetto" remote="losul" />
+  
+  <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="losul" />
+  <project path="frameworks/base" name="LineageOS-UL/android_frameworks_base" remote="losul" />
+  <project path="frameworks/native" name="LineageOS-UL/android_frameworks_native" remote="losul" />
+  
+  <project path="hardware/broadcom/libbt" name="LineageOS-UL/android_hardware_broadcom_libbt" remote="losul" />
+  <project path="hardware/broadcom/nfc" name="LineageOS-UL/android_hardware_broadcom_nfc" remote="losul" />
+  <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" remote="losul" />
+  <project path="hardware/ril" name="LineageOS-UL/android_hardware_ril" remote="losul" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-msm8974" />
+
+  <project path="packages/modules/adb" name="LineageOS-UL/android_packages_modules_adb" remote="losul" />
+  
+  <project path="system/bpf" name="LineageOS-UL/android_system_bpf" remote="losul" />
+  <project path="system/core" name="LineageOS-UL/android_system_core" remote="losul" />
+  <project path="system/netd" name="LineageOS-UL/android_system_netd" remote="losul" />
+  <project path="system/sepolicy" name="LineageOS-UL/android_system_sepolicy" remote="losul" />
+  <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool" remote="losul" />
+   
+  <project path="vendor/lineage" name="LineageOS-UL/android_vendor_lineage" remote="losul" />
+ 
+</manifest>
