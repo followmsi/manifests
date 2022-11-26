@@ -9,6 +9,7 @@
   <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.1-legacy" />
   
   <project path="external/connectivity" name="LineageOS-UL/android_external_connectivity" remote="losul" />
+  <project path="external/jemalloc_new" name="LineageOS-UL/android_external_jemalloc_new" remote="losul" />
   <project path="external/perfetto" name="LineageOS-UL/android_external_perfetto" remote="losul" />
   
   <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="losul" />
