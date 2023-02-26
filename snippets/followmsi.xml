@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="followmsi/android_device_asus_flo" path="device/asus/flo" revision="los-19.1" />
+
+  <project name="followmsi/android_device_asus_deb" path="device/asus/deb" revision="los-19.1" />
+
+  <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" revision="followmsi-12" />
+
+  <project name="followmsi/android_vendor" path="vendor/asus" revision="flo-deb-lineage-19.1" />
+
+
+  <project path="hardware/qcom-caf/msm8960/audio" name="followmsi/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="followmsi/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="followmsi/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-msm8960" />
+
+</manifest>
