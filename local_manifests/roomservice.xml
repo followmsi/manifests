@@ -13,6 +13,9 @@
 
   <project name="followmsi/android_vendor" path="vendor/samsung/manta" revision="manta-lineage-17.1" />
 
+  <remove-project name="LineageOS/android_bionic" />
+  <project name="followmsi/platform_bionic" path="bionic" revision="manta-los-17.1" />
+
   <remove-project name="platform/hardware/invensense" />
   <project name="followmsi/android_hardware_invensense" path="hardware/invensense" revision="android-10-manta" />
 
